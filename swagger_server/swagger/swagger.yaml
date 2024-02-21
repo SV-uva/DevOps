@@ -112,9 +112,9 @@ components:
         first_name: Jones
         gradeRecords:
         - grade: 7
-          subject_name: John
+          subject_name: Math
         - grade: 7.5
-          subject_name: Alice
+          subject_name: English
     GradeRecord:
       required:
       - grade
@@ -129,5 +129,5 @@ components:
           type: number
       example:
         grade: 6.5
-        subject_name: Tom
+        subject_name: Math
 
