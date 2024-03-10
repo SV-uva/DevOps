@@ -59,7 +59,7 @@ paths:
         "200":
           description: OK
         "400":
-          description: Missing student_id parameter
+          description: student_id parameter is missing or malformed
         "404":
           description: Could not find a user with the specified student_id
       x-openapi-router-controller: swagger_server.controllers.default_controller
